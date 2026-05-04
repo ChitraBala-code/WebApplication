@@ -1,0 +1,11 @@
+streamlit
+diffusers
+transformers
+torch
+torchvision
+mediapipe
+opencv-python
+pillow
+numpy
+accelerate
+safetensors
