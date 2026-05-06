@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 import mediapipe as mp
 import torch
-from diffusers import StableDiffusionImg2ImgPipeline
+# from diffusers import StableDiffusionImg2ImgPipeline
 print("OK")
 
 # -----------------------------
@@ -110,7 +110,7 @@ if st.button("Generate Style"):
     if camera_image:
         image = Image.open(camera_image)
 
-        st.image(image, caption="Input Image")
+        st.image("https://via.placeholder.com/512", caption="Demo Output")
 
         # Step 1: Analyze
         features = analyze_image(image)
