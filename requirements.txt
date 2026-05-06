@@ -1,11 +1,5 @@
 streamlit==1.33.0
-torch==2.1.0
-torchvision==0.16.0
-diffusers==0.25.0
-transformers==4.37.0
-accelerate==0.25.0
-safetensors
-pillow
-numpy
+numpy==1.26.4
+pillow==10.2.0
 opencv-python-headless==4.9.0.80
 mediapipe==0.10.9
